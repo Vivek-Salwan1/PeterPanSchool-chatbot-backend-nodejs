@@ -1,0 +1,22 @@
+{
+  "name": "peterpanschool-chatbot-backend-nodejs",
+  "version": "1.0.0",
+  "description": "Peter Pan Schools chatbot API",
+  "license": "ISC",
+  "author": "vivek",
+  "type": "commonjs",
+  "main": "index.js",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.4.2",
+    "express": "^4.21.2",
+    "openai": "^6.47.0"
+  }
+}
