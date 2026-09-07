@@ -15,6 +15,7 @@ const OUT_OF_SCOPE_PATTERNS = [
   /\b(stock|crypto|bitcoin|market|investment)\b/i, /\b(movie|song|actor|celebrity)\b/i,
 ];
 
+
 function buildSystemPrompt(schoolWebsiteUrl) {
   return `You are Buddy, the official AI assistant for Peter Pan Schools.
 Peter Pan Schools is a preschool and early childhood education organization in Alameda, California.
